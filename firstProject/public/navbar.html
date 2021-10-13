@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+ 
+    <nav class="bg-indigo-700 shadow-lg">
+        <div class="container mx-auto">
+            <div class="sm:flex justify-around">
+                <a href="#" class="text-white text-3xl font-bold p-3">Web zone</a>
+
+                <div class="cursor-pointer sm:hidden inline-block justify-around" id="NavBarButton">
+                    <svg class="w-6 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </div>
+
+                <ul class="text-gray-400 sm:self-center text-xl border-t sm:block hidden sm:border-none" id="navBarMenu">
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-white">Home</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-white">Blog</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-white">Services</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-white">About</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="section">
+        <div class="max-w-sm mx-auto p-8 bg-gray-300 px-5 py-10 border-2 rounded shadow-xl">
+            <div class="text-center mb-2">
+                <h1 class="font-bold text-2xl">Login Form</h1>
+            </div>
+
+            <form action="#">
+                <div class="mt-5 py-2">
+                    <label >User Name</label>
+                    <input type="text" class="block w-full p-2 mt-2 rounded border-gray-500">
+                </div>
+
+                <div class="mt-5">
+                    <label>Email</label>
+                    <input type="email" class="block w-full p-2 mt-2rounded border-gray-500">
+                </div>
+
+                <div class="mt-5">
+                    <label>password</label>
+                    <input type="password" class="block w-full p-2 mt-2 rounded border-gray-500">
+                </div>
+
+                <div class="mt-10">
+                    <input type="submit" value="login" class="py-3 bg-green-500 text-white w-full rounded hover:bg-primary">
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="box-content m-5 text-center bg-gray-100  grid lg:grid-cols-3 gap-10">
+        <div class="border-2 rounded flex justify-center lg:grid-cols-3 gap-1 ">
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora explicabo, molestias ullam sed odit possimus eligendi eius iure quos animi nam facere odio temporibus cupiditate ipsa repellendus fuga illum?</p>
+        </div>
+        <div class="border-2 rounded flex justify-center lg:grid-cols-3 gap-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora explicabo, molestias ullam sed odit possimus eligendi eius iure quos animi nam facere odio temporibus cupiditate ipsa repellendus fuga illum?</p>
+        </div>
+        <div class="border-2 rounded flex justify-center lg:grid-cols-3 gap-1 ">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora explicabo, molestias ullam sed odit possimus eligendi eius iure quos animi nam facere odio temporibus cupiditate ipsa repellendus fuga illum?</p>
+        </div>
+        <div class="border-2 rounded flex justify-center lg:grid-cols-3 gap-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora explicabo, molestias ullam sed odit possimus eligendi eius iure quos animi nam facere odio temporibus cupiditate ipsa repellendus fuga illum?</p>
+        </div>
+        <div class="border-2 rounded flex justify-center lg:grid-cols-3 gap-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora explicabo, molestias ullam sed odit possimus eligendi eius iure quos animi nam facere odio temporibus cupiditate ipsa repellendus fuga illum?</p>
+        </div>
+
+        <div class="border-2 rounded flex justify-center lg:grid-cols-3 gap-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora explicabo, molestias ullam sed odit possimus eligendi eius iure quos animi nam facere odio temporibus cupiditate ipsa repellendus fuga illum?</p>
+        </div>
+    </div>
+
+<script src="NavBarButton.js"></script>   
+</body>
+</html>
